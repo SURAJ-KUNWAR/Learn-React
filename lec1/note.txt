@@ -1,0 +1,5 @@
+1) package.json.lock is very imp file which locks the package version , neverrrrrr put it in gitignore
+2) parcel does hmr - hot module replacement (hot reload) possible due to file watcher algorithm written in c++ watches nodemodules as well , bundling , minification ,cleaning code removing console.log , mimizies images as welll , does caching as well by development,  makes code compatible with older versions,enable https while development , put .parceel_cache in gitignore
+3) transitive dependencies - see parcel also depends on other depndencies
+4) browserlist is a thing which makes our compataible witha lot of browsers
+inside package.json if we write "browserlist" : ["last two versions"] this make sure our code runs on all the browsers last 2 version
